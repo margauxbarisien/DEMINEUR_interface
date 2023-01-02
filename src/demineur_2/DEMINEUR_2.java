@@ -37,6 +37,8 @@ public class DEMINEUR_2 {
 
                     } else if (c.isMine()) {
                         System.out.println("X");
+                    }else if (c.isDrapeau()){
+                        System.out.println("D");
                     } else {
                         int minescotés = 0;
                         for (int k = Math.max(0, i - 1); k <= Math.min(nm_lig - 1, i + 1); k++) {
